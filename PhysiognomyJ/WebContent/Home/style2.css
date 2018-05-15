@@ -1,0 +1,21 @@
+.nav-links {
+	display: none;
+}
+#page-id-1559 .nav-links {
+	display: block;
+}
+div.media-entry div.media-summary h2 {
+	color: red;
+}
+div.media-entry div.media-summary h3 {
+	margin-bottom: 10px;
+}
+div.media-entry {
+	margin-top: 18px;
+}
+.news-header {
+	color: rgb(89, 98, 105); text-transform: uppercase; font-family: Geometria-Bold; font-size: 16px; margin-bottom: 0.5em;
+}
+.twitter-box {
+	padding: 15px; border: 1px solid rgb(209, 213, 212); border-image: none; margin-bottom: 50px;
+}

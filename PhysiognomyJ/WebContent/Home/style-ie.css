@@ -1,0 +1,15 @@
+@media all and (-ms-high-contrast:none), all and (-ms-high-contrast:active)
+{
+#page {
+	display: block !important;
+}
+#content {
+	margin-top: 0px !important;
+}
+body.no-submenu #main {
+	margin-top: 76px !important;
+}
+#main {
+	margin-top: 126px !important;
+}
+}

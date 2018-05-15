@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<package name="actions" namespace="/" extends="struts-default">
+		<!-- name 对应url后面的地址 比如 http://127.0.0.1:8080/cfrs/index 的index就是这里配置的 -->
+		<!-- class 与name映射的类 -->
+		<action name="index" class="emmy.physiognomy.action.IndexAction">
+			<result>index.jsp</result>
+		</action>
+		<action name="analyze" class="emmy.physiognomy.action.AnalyzeAction">
+			<result type="redirect" >result1.jsp</result>
+		</action>
+		<action name="detail" class="emmy.physiognomy.action.DetailAction">
+			<result type="redirect" >result2.jsp</result>
+		</action>
+	</package>
+</struts>
